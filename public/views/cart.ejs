@@ -1,0 +1,13 @@
+<div ng-hide="hideCart" class="container">
+	<div>
+		<ul ng-repeat="cartItem in cartItems">
+			<li ng-click="expandProduct(cartItem, '/getProductDetailsExtended')">{{cartItem.itemId}}</li>
+		</ul>
+	</div>
+	<div>
+		<a class="btn btn-success btn-signup pad" ng-click="buy('/user/checkOut')">Checkout</a>
+	</div>
+</div>
+<div ng-show="hideCart" class="cartEmptyMessage">
+	{{cartAlert}}
+</div>

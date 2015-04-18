@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>User profile</title>
+		<script type="application/javascript" src="../js/angular.min.js"></script>
+		<script type="application/javascript" src="../js/angular-route.min.js"></script>
+		<link rel="stylesheet" href="../bootstrap-3.3.4-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/Main.css">
+		<link rel="stylesheet" href="./css/profile.css">
+
+	</head>
+	<body>
+		<div class="container">
+		    
+			<div class="productLiked">
+				<h2> Liked Products </h2>
+				<p>{{message}}</p>
+		        <ul ng-repeat="likedItem in likedItems">
+		        	<li>
+		        		<div>
+		        			<img src="{{likedItem.item.thumbnailImage}}" />
+		        			<div>{{likedItem.item.name}}</div>
+		        		</div>
+		        	</li>
+		        </ul>
+	        </div>
+	        <hr />
+	        
+	        <div class="productPurchased">
+		    	<h2> Purchased items </h2>    
+		    	<p>{{message}}</p>
+				<ul ng-repeat="purchasedItem in purchasedItems">
+		        	<li>
+		        		<div>
+		        			<img src="{{purchasedItem.item.thumbnailImage}}" />
+		        			<div>{{purchasedItem.item.name}}</div>
+		        		</div>
+		        	</li>
+		        </ul>
+	        </div>
+		</div>
+	</body>
+</html>

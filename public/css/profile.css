@@ -1,0 +1,104 @@
+@media (min-width: 768px) {
+    .productLiked {
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        float: left;
+    }
+
+    .productPurchased {
+        position: relative;
+        margin-top: 50px;
+        float: left;
+    }
+
+    .productLiked ul {
+        margin-top: 20px;
+        width: 250px;
+        height: 200px;
+        float:left;
+        background: rgba(0, 0, 0, 0.6);
+        border-color: black;
+        color: white;
+        margin-right: 4px;
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+        /* For IE 8*/
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    }
+
+    .productLiked ul:hover > li {
+        color: black;
+    }
+
+    .productPurchased ul {
+        margin-top: 20px;
+        width: 250px;
+        height: 200px;
+        float:left;
+        border-color: black;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        margin-right: 4px;
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+        /* For IE 8*/
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    }
+
+    .productPurchased ul:hover > li {
+        color: black;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .productLiked {
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        float: left;
+    }
+
+    .productPurchased {
+        position: relative;
+        margin-top: 50px;
+        float: left;
+    }
+
+    .productLiked ul {
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+        float:none;
+        background: rgba(0, 0, 0, 0.6);
+        border-color: black;
+        color: white;
+        margin-right: 4px;
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+        /* For IE 8*/
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    }
+
+    .productLiked ul:hover > li {
+        color: black;
+    }
+
+    .productPurchased ul {
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+        float:none;
+        border-color: black;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        margin-right: 4px;
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+        /* For IE 8*/
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    }
+
+    .productPurchased ul:hover > li {
+        color: black;
+    }
+}

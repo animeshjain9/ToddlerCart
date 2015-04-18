@@ -1,0 +1,511 @@
+body {
+	background: url("../images/Green-baby.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	font-family: Calibri;
+}
+
+.jobpost{
+	border-bottom: 2px solid black;
+}
+
+.jobpost h3{
+	text-decoration: underline;
+}
+
+
+	.contactinfo{
+		list-style-type: none;
+	}
+
+	
+
+	h2{
+		text-align: center;
+		text-decoration: underline;
+		padding-top: 25px;
+	}
+
+	
+
+
+	#first{
+		font-size: 26px;
+	}
+    .wrapper{
+     	padding:50px, 50px;
+    }
+
+@media (min-width: 768px) {
+	.babyImage {
+	width : 500px;
+	height: 300px;
+	box-shadow: 0 0 10px orange;
+	margin-left: 10px;
+}
+
+.contact {
+		font:normal 18px Arial, Helvetica, sans-serif;  
+		margin:150px auto; width: 450px;  height: 300px;  
+		float: center;
+        background-color:black ; 
+        opacity: 0.7;
+        border-radius: 30px;
+        border: 2px solid  darkgray;
+        box-shadow: 0 0 10px black;
+        color: #fff;
+    }
+}
+
+@media (max-width: 768px) {
+	.babyImage {
+	width : 250px;
+	height: 150px;
+	box-shadow: 0 0 10px orange;
+	margin-left: 10px;
+}
+
+.contact {
+		font:normal 12px Arial, Helvetica, sans-serif;  
+		margin:0 auto; width: 220px;  height: 300px;  
+		margin-top: 30px;
+		float: center;
+		text-align: left;
+        background-color:black ; 
+        opacity: 0.7;
+        border-radius: 30px;
+        border: 2px solid  darkgray;
+        box-shadow: 0 0 10px black;
+        color: #fff;
+    }
+}
+
+
+.nav-div {
+	background-color: #222222;
+	height: 40px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+navbar {
+	position: fixed;
+	width: 100%;
+}
+
+navbar ul {
+	display: block;
+	list-style: none;
+	position: relative;
+	box-shadow: 0 0 5px;
+	background-color: #222222;
+}
+
+navbar ul li ul li {
+	border-bottom: 0.9px solid #999999;
+	padding: 0 0 0 0;
+}
+
+navbar ul li ul li:hover {
+	border-bottom: 0.9px solid #999999;
+	background-color: #555555;
+}
+
+navbar ul li {
+	float: left;
+	padding-right: 25px;
+	font-weight: bold;
+	font-size: large;
+	color: #999999;
+	border-bottom: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	white-space: nowrap;
+}
+
+navbar ul li ul {
+	display: none;
+	padding-left: 0;
+	margin-left: 0;
+	border-left: 0;
+	padding-top: 0;
+}
+
+navbar ul li ul.loginFormUL {
+	padding-right: 10px;
+}
+
+
+navbar ul li:hover > ul {
+	display: block;
+	position: absolute;
+	float: none;	
+}
+
+navbar ul li:hover > ul li {
+	float: none;
+	top: 100%;
+	display: block;;
+}
+
+
+.mascot {
+    font-weight: bold;
+    font-family: Cambria;
+    font-size: 220%;
+    text-shadow: 0 0 2px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: -40px;
+    margin-bottom: 0;
+    border-bottom: 0;
+    color: green;
+    box-shadow: none;
+}
+
+    .mascot:hover {
+        color: #00ff21;
+        background: none;
+        cursor: pointer;
+    }
+
+
+
+.form-style {
+	width: 100%;
+	height: 32px;
+	margin-top: 4px;
+	margin-right: 0px;
+	padding-top: 3px;
+	padding-bottom: 1px;
+	padding-right: 3px;
+	padding-left: 3px;
+	border-width: 10px;
+	background-color: #555555;
+}
+
+.search { 
+	height: 24px;
+	cursor: text;
+	color: white;
+	font-weight: normal;
+	-webkit-user-select: cursor;
+	border-style: none;
+	padding-left: 5px;
+	background-color: #222222;
+}
+
+.inset {
+   -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+   -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+}
+
+
+.circle {
+	width: 35px;
+	height: 25px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	background-color: #222222;
+	padding-top: 0;
+	padding-left: 8px;
+	box-shadow: 0 0 4px;
+	color: white;
+}
+
+.circle:hover {
+	color: green;	
+}
+
+.rounded { 
+	border-radius:15px; 
+	-moz-border-radius:15px; 
+	-webkit-border-radius:15px; 
+	-webkit-user-select: text;
+}
+
+
+.loginUL {
+	padding-top: 14px;
+	cursor: pointer;
+}
+
+.loginUL a {
+	text-decoration: none;
+	color: green;
+}
+.knowUsUL a {
+	text-decoration: none;
+	color: green;
+}
+
+
+.knowUs {
+	padding-top: 13px;
+	cursor: pointer;
+	
+}
+
+
+.form-login {
+	padding: 0 0 0 0 ;
+	margin-top: 3px;
+	background-color: #222222;
+	color: white;
+}
+
+.login {
+	height: 100%;
+	display: block;
+	position: relative;
+	float: left;
+	color: white;
+	font-weight: 100;
+	font-size: 12px;
+	border-style: none;
+	background-color: #222222;	
+	border-top: 0px;
+	border-right: 2px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.loginRadio {
+	position: absolute;
+	font-size: 0.7em;
+	font-weight: normal;
+	background-color: #222222;
+	width: 100%;
+}
+
+input[type="radio"] {
+	margin-left: 10px;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	background-position:-140px -115px;
+	text-indent:-9999px;
+}
+
+.google {
+	background-image:url("images/google.ico");
+}
+
+.go {
+	background-color: orange;
+	color: black;
+	border-radius:15px; 
+	-moz-border-radius:15px; 
+	-webkit-border-radius:15px; 
+	-webkit-user-select: text;	
+	padding-right: 2px;
+	padding-left: 2px;
+	margin-right: 2px;
+	margin-top: 0;
+}
+
+
+
+/***********************Product display**************************/
+
+@media (min-width: 768px) {
+	.nav-div {
+		background-color: #000000;
+		height: 40px;
+		position: fixed;
+		width: 100%;
+	}
+
+	.homePageNavOptions {
+		padding-top: 100px;
+	}
+
+	.homePageNavOptions ul {
+		list-style: none;
+		border: 1px solid black;
+		border-top: 10px;
+		border-left: 0px;
+		border-right: 0px;
+		border-bottom: 0px;
+		width: 15%;
+		text-align: left;
+		padding-left: 10px;
+		box-shadow: 3px 3px 10px;
+		font-weight: bold;
+
+	}
+
+	.homePageNavOptions ul li a {
+		text-decoration: none;
+		color: black;
+		width : 100%;
+		display: inline-block;
+	}
+
+	.homePageNavOptions ul:hover {
+		background-color: lightgreen;
+		cursor: pointer;
+		box-shadow: 3px 3px 8px;
+		text-decoration: none;
+	}
+
+	.homePageNavOptions .productCards {
+		width: 300px;
+		font-size: 20px;
+		height: 300px;
+	}
+
+
+	.productCards {
+		float: left;
+		position: relative;
+		border: 5px solid black;
+		background: rgb(0, 0, 0) transparent;
+	    /* RGBa with 0.6 opacity */
+	    background: rgba(0, 0, 0, 0.4);
+	    /* For IE 5.5 - 7*/
+	    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	    /* For IE 8*/
+	    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+		color: black;
+
+		box-shadow: 0 0 15px black;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.nav-div {
+		background-color: #000000;
+		height: 145px;
+		position: fixed;
+		width: 100%;
+	}
+
+
+	.homePageNavOptions {
+		padding-top: 150px;
+		padding-left: 40px;
+	}
+
+	.homePageNavOptions ul li a {
+		text-decoration: none;
+		color: black;
+		width : 100%;
+		display: inline-block;
+	}
+
+	.homePageNavOptions ul {
+		list-style: none;
+		border: 1px solid black;
+		border-top: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		border-bottom: 0px;
+		width: 90%;
+		text-align: left;
+		padding-left: 2px;
+		padding-right: 0px;
+		box-shadow: 3px 3px 15px;
+		font-weight: bold;
+		background-color: lightblue;
+		opacity: 20%;
+
+	}
+
+	.homePageNavOptions ul:hover {
+		background-color: lightblue;
+		cursor: pointer;
+	}
+
+
+	.homePageNavOptions .productCards {
+		width: 200px;
+		font-size: 15px;
+		height: 300px;
+		background: rgb(0, 0, 0) transparent;
+	    /* RGBa with 0.6 opacity */
+	    background: rgba(0, 0, 0, 0.4);
+	    /* For IE 5.5 - 7*/
+	    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	    /* For IE 8*/
+	    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+		color: black;
+
+		box-shadow: 0 0 15px black;
+	}
+}
+
+
+
+
+/*******************************Alert Message**********************************/
+
+.alertMessage {
+	border: 3px solid red;
+	color: red;
+	background-color: black;
+	width: 250px;
+	font-size: 20px;
+}
+
+.cartEmptyMessage {
+	border: 3px solid red;
+	color: red;
+	background-color: black;
+	width: 350px;
+	height: 50px;
+	font-size: 20px;	
+}
+
+
+/*********************************footer******************************************/
+@media (min-width: 768px) {
+#footer {
+  background:black;
+	width:100%;
+	height:50px;
+	bottom:0;
+	left:0;
+	position: fixed;
+}
+
+
+
+
+#footer > .container {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  
+}
+}
+@media (max-width: 768px) {
+#footer {
+  background:black;
+	width:100%;
+	height:80px;
+	bottom:0;
+	left:0;
+	position: fixed;
+}
+
+
+
+
+#footer > .container {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+
+}
+}
+

@@ -1,0 +1,77 @@
+@media (min-width: 500px) {
+
+	.exactCenter {
+	    width:200px;
+	    height:200px;
+	    position: fixed;
+	    background-color: darkgray;
+	    border: 2px solid black;
+	    box-shadow: 0 0 10px;
+	    top: 40%;
+	    left: 30%;
+	    margin-top: -100px;
+	    margin-left: -100px;
+	    padding-left: 10px;
+	    font-family: Arial;
+		font-weight: normal;
+	}
+	
+
+
+
+	.exactCenter input.flow-control{
+		background-color: #f8f8ff;
+	}
+
+	.pad {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.btn-signup {
+		margin-left: 55px;
+		border-radius: 10px;
+		background-color: black;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.exactCenter {
+	    width:auto;
+	    height:auto;
+	    position: fixed;
+	    background-color: darkgray;
+	    border: 2px solid black;
+	    box-shadow: 0 0 10px;
+	    top: 40%;
+	    left: 30%;
+	    margin-top: -100px;
+	    margin-left: -100px;
+	    padding-left: 10px;
+	    font-family: Arial;
+		font-weight: normal;
+	}
+	
+	
+	.exactCenter input.flow-control{
+		background-color: #f8f8ff;
+	}
+
+
+	.pad {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.btn-signup {
+		margin-left: 55px;
+		border-radius: 10px;
+		background-color: black;
+		font-size: 12px;
+	}
+}
+
+
+

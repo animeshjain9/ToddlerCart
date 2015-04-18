@@ -1,0 +1,22 @@
+<ul class="productCards" ng-repeat="product in products">
+	<li ng-click="displayItemDetails(product, '/getProductDetailsExtended')">
+		<span>
+			<div>
+				<span>
+					<img src="{{product.item.thumbnailImage}}" />
+				</span>
+			</div>
+			<div class="productDescription">
+				<div>
+					<a href="#" bubbletooltip="Click to see details">{{product.item.name}}</a>
+				</div>
+				<div>
+					M.R.P: ${{product.item.salePrice}}
+				</div>
+				<div>
+					Customer Rating: {{product.item.customerRating}}
+				</div>
+			</div>
+		</span>
+	</li>
+</ul>
